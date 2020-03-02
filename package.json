@@ -1,0 +1,49 @@
+{
+  "name": "cmbc-pay",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cmblapi": "http://open.cloud.cmbchina.com/api/ApiStoreInfo/DownLoadFile?itemId=f0fb75ca-e0a5-4948-8a81-23b29cea4042",
+    "core-js": "^3.4.4",
+    "element-ui": "^2.13.0",
+    "js-base64": "^2.5.2",
+    "js-md5": "^0.7.3",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
