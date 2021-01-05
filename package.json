@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cmblapi": "http://open.cloud.cmbchina.com/api/ApiStoreInfo/DownLoadFile?itemId=f0fb75ca-e0a5-4948-8a81-23b29cea4042",
     "core-js": "^3.4.4",
     "element-ui": "^2.13.0",
